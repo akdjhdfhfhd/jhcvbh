@@ -276,7 +276,7 @@ class YouTubeAPI:
                 "quiet": True,
                 "no_warnings": True,
             }
-            x = yt_dlp.YoutubeDL(ydl_optssx)
+            x = youtube_dl.YoutubeDL(ydl_optssx)
             info = x.extract_info(link, False)
             xyz = os.path.join(
                 "downloads", f"{info['id']}.{info['ext']}"
@@ -295,7 +295,7 @@ class YouTubeAPI:
                 "quiet": True,
                 "no_warnings": True,
             }
-            x = yt_dlp.YoutubeDL(ydl_optssx)
+            x = youtube_dl.YoutubeDL(ydl_optssx)
             info = x.extract_info(link, False)
             xyz = os.path.join(
                 "downloads", f"{info['id']}.{info['ext']}"
