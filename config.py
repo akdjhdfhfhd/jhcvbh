@@ -24,8 +24,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/ah07v")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DP_NeTwork_op")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/The_AmigoSs")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ah07v")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ah_9_v")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
